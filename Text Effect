@@ -1,0 +1,11 @@
+import time, sys
+
+def magic_text(text):
+    for char in text:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.1)  # Small delay for effect
+    print()
+
+# Example
+magic_text("✨ Welcome to Python Magic! ✨")
